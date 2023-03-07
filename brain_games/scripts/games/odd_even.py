@@ -1,8 +1,8 @@
 import random
 from typing import ClassVar
 
-from games.common import BaseGame
-from games.constants import EVEN_CHOICE, ODD_CHOICE
+from .common import BaseGame
+from .constants import EVEN_CHOICE, ODD_CHOICE
 
 from simple_term_menu import TerminalMenu
 

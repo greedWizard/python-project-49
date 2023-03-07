@@ -1,6 +1,6 @@
 from typing import ClassVar
-from games.common import BaseGame
-from games.mixins import GenerateMathPatternMixin
+from .common import BaseGame
+from .mixins import GenerateMathPatternMixin
 
 
 class CalculatorGame(BaseGame, GenerateMathPatternMixin):

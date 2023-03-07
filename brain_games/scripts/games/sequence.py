@@ -1,8 +1,8 @@
 from typing import Callable, ClassVar, Literal, SupportsInt
 import random
 
-from games.common import BaseGame
-from games.mixins import GenerateMathPatternMixin
+from .common import BaseGame
+from .mixins import GenerateMathPatternMixin
 
 
 class SequenceGame(BaseGame, GenerateMathPatternMixin):

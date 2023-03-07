@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from games.constants import RIGHT_ANSWERS_TO_WIN_COUNT
-from games.exceptions import StopGameException
+from .constants import RIGHT_ANSWERS_TO_WIN_COUNT
+from .exceptions import StopGameException
 
 
 @dataclass

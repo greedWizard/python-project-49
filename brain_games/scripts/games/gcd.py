@@ -2,7 +2,7 @@ import math
 import random
 from typing import ClassVar
 
-from games.common import BaseGame
+from .common import BaseGame
 
 
 class GCDGame(BaseGame):

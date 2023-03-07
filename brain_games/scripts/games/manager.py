@@ -2,10 +2,10 @@ import sys
 from typing import ClassVar
 
 from simple_term_menu import TerminalMenu
-from games.calculator_game import CalculatorGame
+from .calculator_game import CalculatorGame
 
-from games.common import BaseGame
-from games.constants import (
+from .common import BaseGame
+from .constants import (
     CALCULATOR_GAME_NAME,
     GCD_GAME_NAME,
     NO_CHOICE,
@@ -14,11 +14,11 @@ from games.constants import (
     SEQUENCE_GAME_NAME,
     YES_CHOICE,
 )
-from games.exceptions import StopGameException
-from games.gcd import GCDGame
-from games.odd_even import OddEvenGame
-from games.prime import PrimeGame
-from games.sequence import SequenceGame
+from .exceptions import StopGameException
+from .gcd import GCDGame
+from .odd_even import OddEvenGame
+from .prime import PrimeGame
+from .sequence import SequenceGame
 
 
 class GameManager:

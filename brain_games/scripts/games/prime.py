@@ -3,8 +3,8 @@ from typing import ClassVar
 
 from simple_term_menu import TerminalMenu
 
-from games.common import BaseGame
-from games.constants import NOT_PRIME_CHOICE, PRIME_CHOICE
+from .common import BaseGame
+from .constants import NOT_PRIME_CHOICE, PRIME_CHOICE
 
 
 class PrimeGame(BaseGame):

@@ -1,5 +1,4 @@
-
-from games.manager import GameManager
+from .games.manager import GameManager
 
 
 def main():
