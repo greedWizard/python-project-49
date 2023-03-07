@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from .games.manager import GameManager
 
 
