@@ -8,7 +8,7 @@ class CalculatorGame(BaseGame, GenerateMathPatternMixin):
         '/',
     ]
     MIN_NUMBER_IN_EXPRESSION: ClassVar[int] = 0
-    MAX_NUMBER_IN_EXPRESSION: ClassVar[int] = 1000
+    MAX_NUMBER_IN_EXPRESSION: ClassVar[int] = 100
     SEQUENCE_OPERATIONS_COUNT: ClassVar[int] = 4
 
     def get_win_message(self):
@@ -18,7 +18,6 @@ class CalculatorGame(BaseGame, GenerateMathPatternMixin):
         print('Добро пожаловать в игру калькулятор!')
 
     def __ask_choice(self, right_answer: str, sequence_str: str):
-        print('=========================')
         choice = input(f'{sequence_str}=\t')
 
         if choice == right_answer:
@@ -28,6 +27,7 @@ class CalculatorGame(BaseGame, GenerateMathPatternMixin):
             print('К сожалению ответ не правильный')
 
     def update(self):
+        print('=========================')
         print('Посчитайте выражение на экране (округлите до целых):')
 
         sequence_function, sequence_str = self._generate_math_expression(

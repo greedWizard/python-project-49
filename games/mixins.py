@@ -10,7 +10,7 @@ class GenerateMathPatternMixin:
     ]
     VARIABLE_CHAR: ClassVar[Literal['x']] = 'x'
     SEQUENCE_OPERATIONS_COUNT: ClassVar[Literal[2]] = 2
-    MIN_NUMBER_IN_EXPRESSION: ClassVar[int] = 0
+    MIN_NUMBER_IN_EXPRESSION: ClassVar[int] = 1
     MAX_NUMBER_IN_EXPRESSION: ClassVar[int] = 10
 
     def _generate_math_expression(
